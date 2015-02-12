@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Braillegant</title>
+	<meta name="description" content="A game-like application designed to teach braille to people of sight">
+	<meta name="author" content="Ryan William Jackson">
+	<link rel="stylesheet" href="styles/main.css" />
+	<!-- icons -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<!-- jQuery Mobile -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+</head>
+
+<body>
+
+ <div id="splash" data-role="page">
+
+	<div data-role="header">
+		<h1>Braillegant</h1>
+	</div>
+
+	<div data-role="content">	
+		<img src="images/splash.png" alt="splash image" width="100" height="100" />
+	</div>
+
+	<div data-role="footer">
+		<h4>Loading...</h4>
+	</div>
+	
+</div>
+
+<div id="main" data-role="page">
+
+	<div data-role="header">
+		<h1>Braillegant</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<canvas id="cell" />		
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+	
+</div><!-- /page -->
+
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
